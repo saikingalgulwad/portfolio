@@ -10,6 +10,23 @@ export default function ProjectsPage() {
         </h1>
 
         <div className="grid gap-6 md:grid-cols-2">
+    {/*ladakibahin */}
+           <div className="bg-gray-800 p-5 rounded-lg shadow hover:shadow-indigo-500/10 transition">
+            <h2 className="text-xl font-semibold text-indigo-300">Ladakibahin</h2>
+            <p className="text-sm text-gray-400 mt-2">
+              The Ladaki Bahin Yojana is a wonderful initiative by the Maharashtra government to support daughters across the state. While exploring the original website, I noticed areas where the user experience and performance could be improved.
+            </p>
+            <div className="flex gap-4 mt-4 text-sm text-indigo-400">
+              <a href="https://ladakibahin.vercel.app/" target="_blank" className="hover:underline">
+                Live Demo
+              </a>
+              <a href="https://github.com/saikingalgulwad/ladakibahin" target="_blank" className="hover:underline">
+                GitHub Repo
+              </a>
+            </div>
+          </div>
+
+    
           {/* Manga Reading App */}
           <div className="bg-gray-800 p-5 rounded-lg shadow hover:shadow-indigo-500/10 transition">
             <h2 className="text-xl font-semibold text-indigo-300">Manga Reading App</h2>
